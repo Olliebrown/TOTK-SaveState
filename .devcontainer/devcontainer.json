@@ -9,7 +9,8 @@
 		"dockerfile": "../Dockerfile"
 	},
 	"mounts": [
-		"source=${localEnv:HOME}${localEnv:USERPROFILE}\\AppData\\Roaming\\Ryujinx,target=/mnt/Ryujinx,type=bind,consistency=cached"
+		"source=${localEnv:HOME}/Library/Application Support/Ryujinx,target=/mnt/Ryujinx,type=bind,consistency=cached"
+		// "source=${localEnv:HOME}${localEnv:USERPROFILE}\\AppData\\Roaming\\Ryujinx,target=/mnt/Ryujinx,type=bind,consistency=cached"
 	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
