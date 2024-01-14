@@ -56,6 +56,3 @@ public:
     static const PatchInfo patches[];
     static void ApplyPatches(void);
 };
-
-
-
